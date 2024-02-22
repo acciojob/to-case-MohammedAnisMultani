@@ -11,5 +11,5 @@ return str
 
 // DO not change the code below
 
-// const text = prompt("Enter text:"); 
-// alert(toCase(text));  
+const text = prompt("Enter text:"); 
+alert(toCase(text));  
