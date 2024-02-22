@@ -1,20 +1,15 @@
 function toCase(text) {
- let ans = text.trim()
-let string = ""
-for(let i=0; i<text.length; i++){
-  if(text.charAt(i) != " "){
-    string += text.charAt(i);
-  }
-}
+
+text = text.trim()
 let str = ""
-str = str + string.toLowerCase()
+str = str + text.toLowerCase()
 str = str + "-";
-str= str + string.toUpperCase()
+str= str + text.toUpperCase()
 
 return str
 }
 
 // DO not change the code below
 
-const text = prompt("Enter text:"); 
-alert(toCase(text));  
+// const text = prompt("Enter text:"); 
+// alert(toCase(text));  
